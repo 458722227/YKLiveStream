@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A5F46FBBA8BD274A1F3DBD6 /* Pods_YKLiveStream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 577988B51B04443C4E11133A /* Pods_YKLiveStream.framework */; };
+		B55FAC5D1EEE78B0009CF3B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55FAC5C1EEE78B0009CF3B3 /* AppDelegate.swift */; };
+		B55FAC621EEE78B0009CF3B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B55FAC601EEE78B0009CF3B3 /* Main.storyboard */; };
+		B55FAC641EEE78B0009CF3B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B55FAC631EEE78B0009CF3B3 /* Assets.xcassets */; };
+		B55FAC671EEE78B0009CF3B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B55FAC651EEE78B0009CF3B3 /* LaunchScreen.storyboard */; };
+		B55FAC721EEE78B1009CF3B3 /* YKLiveStreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55FAC711EEE78B1009CF3B3 /* YKLiveStreamTests.swift */; };
+		B55FAC7D1EEE78B1009CF3B3 /* YKLiveStreamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55FAC7C1EEE78B1009CF3B3 /* YKLiveStreamUITests.swift */; };
+		B55FAC911EEE794C009CF3B3 /* YKCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55FAC8C1EEE794C009CF3B3 /* YKCreator.swift */; };
+		B55FAC941EEE794C009CF3B3 /* YKLive.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55FAC8F1EEE794C009CF3B3 /* YKLive.swift */; };
+		B55FAC951EEE794C009CF3B3 /* YKLiveStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55FAC901EEE794C009CF3B3 /* YKLiveStream.swift */; };
+		B55FAC971EEE799A009CF3B3 /* YKCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55FAC961EEE799A009CF3B3 /* YKCell.swift */; };
+		B55FAC991EEE7AAB009CF3B3 /* LiveTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55FAC981EEE7AAB009CF3B3 /* LiveTableViewController.swift */; };
+		B55FACAF1EEE7FBB009CF3B3 /* YKExtra.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55FACAE1EEE7FBB009CF3B3 /* YKExtra.swift */; };
+		B55FACB11EEE7FCC009CF3B3 /* YKLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55FACB01EEE7FCC009CF3B3 /* YKLabel.swift */; };
+		B55FACC91EEE8C38009CF3B3 /* LiveTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55FACC81EEE8C38009CF3B3 /* LiveTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B55FAC6E1EEE78B0009CF3B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B55FAC511EEE78B0009CF3B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B55FAC581EEE78B0009CF3B3;
+			remoteInfo = YKLiveStream;
+		};
+		B55FAC791EEE78B1009CF3B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B55FAC511EEE78B0009CF3B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B55FAC581EEE78B0009CF3B3;
+			remoteInfo = YKLiveStream;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B55FACC51EEE8555009CF3B3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		577988B51B04443C4E11133A /* Pods_YKLiveStream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YKLiveStream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B55FAC591EEE78B0009CF3B3 /* YKLiveStream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YKLiveStream.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B55FAC5C1EEE78B0009CF3B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B55FAC611EEE78B0009CF3B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B55FAC631EEE78B0009CF3B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B55FAC661EEE78B0009CF3B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B55FAC681EEE78B0009CF3B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B55FAC6D1EEE78B0009CF3B3 /* YKLiveStreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YKLiveStreamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B55FAC711EEE78B1009CF3B3 /* YKLiveStreamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YKLiveStreamTests.swift; sourceTree = "<group>"; };
+		B55FAC731EEE78B1009CF3B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B55FAC781EEE78B1009CF3B3 /* YKLiveStreamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YKLiveStreamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B55FAC7C1EEE78B1009CF3B3 /* YKLiveStreamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YKLiveStreamUITests.swift; sourceTree = "<group>"; };
+		B55FAC7E1EEE78B1009CF3B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B55FAC8C1EEE794C009CF3B3 /* YKCreator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKCreator.swift; sourceTree = "<group>"; };
+		B55FAC8F1EEE794C009CF3B3 /* YKLive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKLive.swift; sourceTree = "<group>"; };
+		B55FAC901EEE794C009CF3B3 /* YKLiveStream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKLiveStream.swift; sourceTree = "<group>"; };
+		B55FAC961EEE799A009CF3B3 /* YKCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKCell.swift; sourceTree = "<group>"; };
+		B55FAC981EEE7AAB009CF3B3 /* LiveTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveTableViewController.swift; sourceTree = "<group>"; };
+		B55FACAE1EEE7FBB009CF3B3 /* YKExtra.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKExtra.swift; sourceTree = "<group>"; };
+		B55FACB01EEE7FCC009CF3B3 /* YKLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKLabel.swift; sourceTree = "<group>"; };
+		B55FACC81EEE8C38009CF3B3 /* LiveTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveTableViewCell.swift; sourceTree = "<group>"; };
+		DEFB48B9789B16841A32BE80 /* Pods-YKLiveStream.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YKLiveStream.release.xcconfig"; path = "Pods/Target Support Files/Pods-YKLiveStream/Pods-YKLiveStream.release.xcconfig"; sourceTree = "<group>"; };
+		EC75EBB32374E03A6C0660AF /* Pods-YKLiveStream.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YKLiveStream.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YKLiveStream/Pods-YKLiveStream.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B55FAC561EEE78B0009CF3B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A5F46FBBA8BD274A1F3DBD6 /* Pods_YKLiveStream.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55FAC6A1EEE78B0009CF3B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55FAC751EEE78B1009CF3B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF4E50621A23A2EC3B6EB376 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC75EBB32374E03A6C0660AF /* Pods-YKLiveStream.debug.xcconfig */,
+				DEFB48B9789B16841A32BE80 /* Pods-YKLiveStream.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B55FAC501EEE78B0009CF3B3 = {
+			isa = PBXGroup;
+			children = (
+				B55FAC5B1EEE78B0009CF3B3 /* YKLiveStream */,
+				B55FAC701EEE78B1009CF3B3 /* YKLiveStreamTests */,
+				B55FAC7B1EEE78B1009CF3B3 /* YKLiveStreamUITests */,
+				B55FAC5A1EEE78B0009CF3B3 /* Products */,
+				AF4E50621A23A2EC3B6EB376 /* Pods */,
+				FEF00BD6B7E03E29D8BED8BA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B55FAC5A1EEE78B0009CF3B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B55FAC591EEE78B0009CF3B3 /* YKLiveStream.app */,
+				B55FAC6D1EEE78B0009CF3B3 /* YKLiveStreamTests.xctest */,
+				B55FAC781EEE78B1009CF3B3 /* YKLiveStreamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B55FAC5B1EEE78B0009CF3B3 /* YKLiveStream */ = {
+			isa = PBXGroup;
+			children = (
+				B55FAC8A1EEE794C009CF3B3 /* Main */,
+				B55FAC5C1EEE78B0009CF3B3 /* AppDelegate.swift */,
+				B55FAC981EEE7AAB009CF3B3 /* LiveTableViewController.swift */,
+				B55FACC81EEE8C38009CF3B3 /* LiveTableViewCell.swift */,
+				B55FAC601EEE78B0009CF3B3 /* Main.storyboard */,
+				B55FAC631EEE78B0009CF3B3 /* Assets.xcassets */,
+				B55FAC651EEE78B0009CF3B3 /* LaunchScreen.storyboard */,
+				B55FAC681EEE78B0009CF3B3 /* Info.plist */,
+			);
+			path = YKLiveStream;
+			sourceTree = "<group>";
+		};
+		B55FAC701EEE78B1009CF3B3 /* YKLiveStreamTests */ = {
+			isa = PBXGroup;
+			children = (
+				B55FAC711EEE78B1009CF3B3 /* YKLiveStreamTests.swift */,
+				B55FAC731EEE78B1009CF3B3 /* Info.plist */,
+			);
+			path = YKLiveStreamTests;
+			sourceTree = "<group>";
+		};
+		B55FAC7B1EEE78B1009CF3B3 /* YKLiveStreamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B55FAC7C1EEE78B1009CF3B3 /* YKLiveStreamUITests.swift */,
+				B55FAC7E1EEE78B1009CF3B3 /* Info.plist */,
+			);
+			path = YKLiveStreamUITests;
+			sourceTree = "<group>";
+		};
+		B55FAC8A1EEE794C009CF3B3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B55FAC9A1EEE7CF6009CF3B3 /* Resource */,
+				B55FAC8B1EEE794C009CF3B3 /* Model */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B55FAC8B1EEE794C009CF3B3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B55FACB01EEE7FCC009CF3B3 /* YKLabel.swift */,
+				B55FACAE1EEE7FBB009CF3B3 /* YKExtra.swift */,
+				B55FAC8C1EEE794C009CF3B3 /* YKCreator.swift */,
+				B55FAC8F1EEE794C009CF3B3 /* YKLive.swift */,
+				B55FAC901EEE794C009CF3B3 /* YKLiveStream.swift */,
+				B55FAC961EEE799A009CF3B3 /* YKCell.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B55FAC9A1EEE7CF6009CF3B3 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		FEF00BD6B7E03E29D8BED8BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				577988B51B04443C4E11133A /* Pods_YKLiveStream.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B55FAC581EEE78B0009CF3B3 /* YKLiveStream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B55FAC811EEE78B1009CF3B3 /* Build configuration list for PBXNativeTarget "YKLiveStream" */;
+			buildPhases = (
+				39408B353C33D5CF5941C39C /* [CP] Check Pods Manifest.lock */,
+				B55FAC551EEE78B0009CF3B3 /* Sources */,
+				B55FAC561EEE78B0009CF3B3 /* Frameworks */,
+				B55FAC571EEE78B0009CF3B3 /* Resources */,
+				B55FACC51EEE8555009CF3B3 /* Embed Frameworks */,
+				BC024ED4619942ED97CA1E33 /* [CP] Embed Pods Frameworks */,
+				FE8666BE7D3F10CEE9BF16C6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YKLiveStream;
+			productName = YKLiveStream;
+			productReference = B55FAC591EEE78B0009CF3B3 /* YKLiveStream.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B55FAC6C1EEE78B0009CF3B3 /* YKLiveStreamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B55FAC841EEE78B1009CF3B3 /* Build configuration list for PBXNativeTarget "YKLiveStreamTests" */;
+			buildPhases = (
+				B55FAC691EEE78B0009CF3B3 /* Sources */,
+				B55FAC6A1EEE78B0009CF3B3 /* Frameworks */,
+				B55FAC6B1EEE78B0009CF3B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B55FAC6F1EEE78B0009CF3B3 /* PBXTargetDependency */,
+			);
+			name = YKLiveStreamTests;
+			productName = YKLiveStreamTests;
+			productReference = B55FAC6D1EEE78B0009CF3B3 /* YKLiveStreamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B55FAC771EEE78B1009CF3B3 /* YKLiveStreamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B55FAC871EEE78B1009CF3B3 /* Build configuration list for PBXNativeTarget "YKLiveStreamUITests" */;
+			buildPhases = (
+				B55FAC741EEE78B1009CF3B3 /* Sources */,
+				B55FAC751EEE78B1009CF3B3 /* Frameworks */,
+				B55FAC761EEE78B1009CF3B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B55FAC7A1EEE78B1009CF3B3 /* PBXTargetDependency */,
+			);
+			name = YKLiveStreamUITests;
+			productName = YKLiveStreamUITests;
+			productReference = B55FAC781EEE78B1009CF3B3 /* YKLiveStreamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B55FAC511EEE78B0009CF3B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = szd;
+				TargetAttributes = {
+					B55FAC581EEE78B0009CF3B3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PN7N5P7U6Y;
+						ProvisioningStyle = Automatic;
+					};
+					B55FAC6C1EEE78B0009CF3B3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PN7N5P7U6Y;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B55FAC581EEE78B0009CF3B3;
+					};
+					B55FAC771EEE78B1009CF3B3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PN7N5P7U6Y;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B55FAC581EEE78B0009CF3B3;
+					};
+				};
+			};
+			buildConfigurationList = B55FAC541EEE78B0009CF3B3 /* Build configuration list for PBXProject "YKLiveStream" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B55FAC501EEE78B0009CF3B3;
+			productRefGroup = B55FAC5A1EEE78B0009CF3B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B55FAC581EEE78B0009CF3B3 /* YKLiveStream */,
+				B55FAC6C1EEE78B0009CF3B3 /* YKLiveStreamTests */,
+				B55FAC771EEE78B1009CF3B3 /* YKLiveStreamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B55FAC571EEE78B0009CF3B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55FAC671EEE78B0009CF3B3 /* LaunchScreen.storyboard in Resources */,
+				B55FAC641EEE78B0009CF3B3 /* Assets.xcassets in Resources */,
+				B55FAC621EEE78B0009CF3B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55FAC6B1EEE78B0009CF3B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55FAC761EEE78B1009CF3B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39408B353C33D5CF5941C39C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BC024ED4619942ED97CA1E33 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YKLiveStream/Pods-YKLiveStream-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE8666BE7D3F10CEE9BF16C6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YKLiveStream/Pods-YKLiveStream-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B55FAC551EEE78B0009CF3B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55FACAF1EEE7FBB009CF3B3 /* YKExtra.swift in Sources */,
+				B55FAC971EEE799A009CF3B3 /* YKCell.swift in Sources */,
+				B55FACB11EEE7FCC009CF3B3 /* YKLabel.swift in Sources */,
+				B55FAC991EEE7AAB009CF3B3 /* LiveTableViewController.swift in Sources */,
+				B55FAC951EEE794C009CF3B3 /* YKLiveStream.swift in Sources */,
+				B55FAC911EEE794C009CF3B3 /* YKCreator.swift in Sources */,
+				B55FACC91EEE8C38009CF3B3 /* LiveTableViewCell.swift in Sources */,
+				B55FAC5D1EEE78B0009CF3B3 /* AppDelegate.swift in Sources */,
+				B55FAC941EEE794C009CF3B3 /* YKLive.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55FAC691EEE78B0009CF3B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55FAC721EEE78B1009CF3B3 /* YKLiveStreamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55FAC741EEE78B1009CF3B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55FAC7D1EEE78B1009CF3B3 /* YKLiveStreamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B55FAC6F1EEE78B0009CF3B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B55FAC581EEE78B0009CF3B3 /* YKLiveStream */;
+			targetProxy = B55FAC6E1EEE78B0009CF3B3 /* PBXContainerItemProxy */;
+		};
+		B55FAC7A1EEE78B1009CF3B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B55FAC581EEE78B0009CF3B3 /* YKLiveStream */;
+			targetProxy = B55FAC791EEE78B1009CF3B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B55FAC601EEE78B0009CF3B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B55FAC611EEE78B0009CF3B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B55FAC651EEE78B0009CF3B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B55FAC661EEE78B0009CF3B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B55FAC7F1EEE78B1009CF3B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B55FAC801EEE78B1009CF3B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B55FAC821EEE78B1009CF3B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC75EBB32374E03A6C0660AF /* Pods-YKLiveStream.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PN7N5P7U6Y;
+				INFOPLIST_FILE = YKLiveStream/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.topcheer.YKLiveStream;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B55FAC831EEE78B1009CF3B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEFB48B9789B16841A32BE80 /* Pods-YKLiveStream.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PN7N5P7U6Y;
+				INFOPLIST_FILE = YKLiveStream/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.topcheer.YKLiveStream;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B55FAC851EEE78B1009CF3B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PN7N5P7U6Y;
+				INFOPLIST_FILE = YKLiveStreamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.topcheer.YKLiveStreamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YKLiveStream.app/YKLiveStream";
+			};
+			name = Debug;
+		};
+		B55FAC861EEE78B1009CF3B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PN7N5P7U6Y;
+				INFOPLIST_FILE = YKLiveStreamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.topcheer.YKLiveStreamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YKLiveStream.app/YKLiveStream";
+			};
+			name = Release;
+		};
+		B55FAC881EEE78B1009CF3B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = PN7N5P7U6Y;
+				INFOPLIST_FILE = YKLiveStreamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.topcheer.YKLiveStreamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = YKLiveStream;
+			};
+			name = Debug;
+		};
+		B55FAC891EEE78B1009CF3B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = PN7N5P7U6Y;
+				INFOPLIST_FILE = YKLiveStreamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.topcheer.YKLiveStreamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = YKLiveStream;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B55FAC541EEE78B0009CF3B3 /* Build configuration list for PBXProject "YKLiveStream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B55FAC7F1EEE78B1009CF3B3 /* Debug */,
+				B55FAC801EEE78B1009CF3B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B55FAC811EEE78B1009CF3B3 /* Build configuration list for PBXNativeTarget "YKLiveStream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B55FAC821EEE78B1009CF3B3 /* Debug */,
+				B55FAC831EEE78B1009CF3B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B55FAC841EEE78B1009CF3B3 /* Build configuration list for PBXNativeTarget "YKLiveStreamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B55FAC851EEE78B1009CF3B3 /* Debug */,
+				B55FAC861EEE78B1009CF3B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B55FAC871EEE78B1009CF3B3 /* Build configuration list for PBXNativeTarget "YKLiveStreamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B55FAC881EEE78B1009CF3B3 /* Debug */,
+				B55FAC891EEE78B1009CF3B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B55FAC511EEE78B0009CF3B3 /* Project object */;
+}
