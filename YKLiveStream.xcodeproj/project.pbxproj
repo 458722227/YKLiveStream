@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		2A5F46FBBA8BD274A1F3DBD6 /* Pods_YKLiveStream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 577988B51B04443C4E11133A /* Pods_YKLiveStream.framework */; };
 		B55FAC5D1EEE78B0009CF3B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55FAC5C1EEE78B0009CF3B3 /* AppDelegate.swift */; };
-		B55FAC621EEE78B0009CF3B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B55FAC601EEE78B0009CF3B3 /* Main.storyboard */; };
 		B55FAC641EEE78B0009CF3B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B55FAC631EEE78B0009CF3B3 /* Assets.xcassets */; };
 		B55FAC671EEE78B0009CF3B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B55FAC651EEE78B0009CF3B3 /* LaunchScreen.storyboard */; };
 		B55FAC721EEE78B1009CF3B3 /* YKLiveStreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55FAC711EEE78B1009CF3B3 /* YKLiveStreamTests.swift */; };
@@ -18,11 +17,14 @@
 		B55FAC941EEE794C009CF3B3 /* YKLive.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55FAC8F1EEE794C009CF3B3 /* YKLive.swift */; };
 		B55FAC951EEE794C009CF3B3 /* YKLiveStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55FAC901EEE794C009CF3B3 /* YKLiveStream.swift */; };
 		B55FAC971EEE799A009CF3B3 /* YKCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55FAC961EEE799A009CF3B3 /* YKCell.swift */; };
-		B55FAC991EEE7AAB009CF3B3 /* LiveTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55FAC981EEE7AAB009CF3B3 /* LiveTableViewController.swift */; };
 		B55FACAF1EEE7FBB009CF3B3 /* YKExtra.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55FACAE1EEE7FBB009CF3B3 /* YKExtra.swift */; };
 		B55FACB11EEE7FCC009CF3B3 /* YKLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55FACB01EEE7FCC009CF3B3 /* YKLabel.swift */; };
 		B55FACC91EEE8C38009CF3B3 /* LiveTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55FACC81EEE8C38009CF3B3 /* LiveTableViewCell.swift */; };
-		B569017F1EEF89A700E6AFBE /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B569017E1EEF89A700E6AFBE /* PlayViewController.swift */; };
+		B56901A71EEFC25D00E6AFBE /* emmitParticles.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56901A31EEFC25D00E6AFBE /* emmitParticles.swift */; };
+		B56901A81EEFC25D00E6AFBE /* DMHeartFlyView.m in Sources */ = {isa = PBXBuildFile; fileRef = B56901A61EEFC25D00E6AFBE /* DMHeartFlyView.m */; };
+		B56901AA1EEFC29200E6AFBE /* LiveTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56901A91EEFC29200E6AFBE /* LiveTableViewController.swift */; };
+		B56901AC1EEFC2B100E6AFBE /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56901AB1EEFC2B100E6AFBE /* PlayViewController.swift */; };
+		B56901AE1EEFC2F200E6AFBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56901AD1EEFC2F200E6AFBE /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,7 +61,6 @@
 		577988B51B04443C4E11133A /* Pods_YKLiveStream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YKLiveStream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B55FAC591EEE78B0009CF3B3 /* YKLiveStream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YKLiveStream.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B55FAC5C1EEE78B0009CF3B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B55FAC611EEE78B0009CF3B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B55FAC631EEE78B0009CF3B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B55FAC661EEE78B0009CF3B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B55FAC681EEE78B0009CF3B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -73,11 +74,15 @@
 		B55FAC8F1EEE794C009CF3B3 /* YKLive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKLive.swift; sourceTree = "<group>"; };
 		B55FAC901EEE794C009CF3B3 /* YKLiveStream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKLiveStream.swift; sourceTree = "<group>"; };
 		B55FAC961EEE799A009CF3B3 /* YKCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKCell.swift; sourceTree = "<group>"; };
-		B55FAC981EEE7AAB009CF3B3 /* LiveTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveTableViewController.swift; sourceTree = "<group>"; };
 		B55FACAE1EEE7FBB009CF3B3 /* YKExtra.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKExtra.swift; sourceTree = "<group>"; };
 		B55FACB01EEE7FCC009CF3B3 /* YKLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKLabel.swift; sourceTree = "<group>"; };
 		B55FACC81EEE8C38009CF3B3 /* LiveTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveTableViewCell.swift; sourceTree = "<group>"; };
-		B569017E1EEF89A700E6AFBE /* PlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
+		B56901A31EEFC25D00E6AFBE /* emmitParticles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = emmitParticles.swift; sourceTree = "<group>"; };
+		B56901A51EEFC25D00E6AFBE /* DMHeartFlyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMHeartFlyView.h; sourceTree = "<group>"; };
+		B56901A61EEFC25D00E6AFBE /* DMHeartFlyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMHeartFlyView.m; sourceTree = "<group>"; };
+		B56901A91EEFC29200E6AFBE /* LiveTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveTableViewController.swift; sourceTree = "<group>"; };
+		B56901AB1EEFC2B100E6AFBE /* PlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
+		B56901AD1EEFC2F200E6AFBE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		DEFB48B9789B16841A32BE80 /* Pods-YKLiveStream.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YKLiveStream.release.xcconfig"; path = "Pods/Target Support Files/Pods-YKLiveStream/Pods-YKLiveStream.release.xcconfig"; sourceTree = "<group>"; };
 		EC75EBB32374E03A6C0660AF /* Pods-YKLiveStream.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YKLiveStream.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YKLiveStream/Pods-YKLiveStream.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -142,12 +147,13 @@
 		B55FAC5B1EEE78B0009CF3B3 /* YKLiveStream */ = {
 			isa = PBXGroup;
 			children = (
+				B56901A21EEFC24E00E6AFBE /* ThirdLibs */,
 				B55FAC8A1EEE794C009CF3B3 /* Main */,
 				B55FAC5C1EEE78B0009CF3B3 /* AppDelegate.swift */,
-				B55FAC981EEE7AAB009CF3B3 /* LiveTableViewController.swift */,
+				B56901A91EEFC29200E6AFBE /* LiveTableViewController.swift */,
 				B55FACC81EEE8C38009CF3B3 /* LiveTableViewCell.swift */,
-				B569017E1EEF89A700E6AFBE /* PlayViewController.swift */,
-				B55FAC601EEE78B0009CF3B3 /* Main.storyboard */,
+				B56901AB1EEFC2B100E6AFBE /* PlayViewController.swift */,
+				B56901AD1EEFC2F200E6AFBE /* Main.storyboard */,
 				B55FAC631EEE78B0009CF3B3 /* Assets.xcassets */,
 				B55FAC651EEE78B0009CF3B3 /* LaunchScreen.storyboard */,
 				B55FAC681EEE78B0009CF3B3 /* Info.plist */,
@@ -176,7 +182,6 @@
 		B55FAC8A1EEE794C009CF3B3 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				B55FAC9A1EEE7CF6009CF3B3 /* Resource */,
 				B55FAC8B1EEE794C009CF3B3 /* Model */,
 			);
 			path = Main;
@@ -195,11 +200,22 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		B55FAC9A1EEE7CF6009CF3B3 /* Resource */ = {
+		B56901A21EEFC24E00E6AFBE /* ThirdLibs */ = {
 			isa = PBXGroup;
 			children = (
+				B56901A31EEFC25D00E6AFBE /* emmitParticles.swift */,
+				B56901A41EEFC25D00E6AFBE /* HeartFlyView-master */,
 			);
-			path = Resource;
+			path = ThirdLibs;
+			sourceTree = "<group>";
+		};
+		B56901A41EEFC25D00E6AFBE /* HeartFlyView-master */ = {
+			isa = PBXGroup;
+			children = (
+				B56901A51EEFC25D00E6AFBE /* DMHeartFlyView.h */,
+				B56901A61EEFC25D00E6AFBE /* DMHeartFlyView.m */,
+			);
+			path = "HeartFlyView-master";
 			sourceTree = "<group>";
 		};
 		FEF00BD6B7E03E29D8BED8BA /* Frameworks */ = {
@@ -324,9 +340,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B56901AE1EEFC2F200E6AFBE /* Main.storyboard in Resources */,
 				B55FAC671EEE78B0009CF3B3 /* LaunchScreen.storyboard in Resources */,
 				B55FAC641EEE78B0009CF3B3 /* Assets.xcassets in Resources */,
-				B55FAC621EEE78B0009CF3B3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,11 +417,13 @@
 			files = (
 				B55FACAF1EEE7FBB009CF3B3 /* YKExtra.swift in Sources */,
 				B55FAC971EEE799A009CF3B3 /* YKCell.swift in Sources */,
+				B56901A81EEFC25D00E6AFBE /* DMHeartFlyView.m in Sources */,
+				B56901AA1EEFC29200E6AFBE /* LiveTableViewController.swift in Sources */,
+				B56901AC1EEFC2B100E6AFBE /* PlayViewController.swift in Sources */,
+				B56901A71EEFC25D00E6AFBE /* emmitParticles.swift in Sources */,
 				B55FACB11EEE7FCC009CF3B3 /* YKLabel.swift in Sources */,
-				B55FAC991EEE7AAB009CF3B3 /* LiveTableViewController.swift in Sources */,
 				B55FAC951EEE794C009CF3B3 /* YKLiveStream.swift in Sources */,
 				B55FAC911EEE794C009CF3B3 /* YKCreator.swift in Sources */,
-				B569017F1EEF89A700E6AFBE /* PlayViewController.swift in Sources */,
 				B55FACC91EEE8C38009CF3B3 /* LiveTableViewCell.swift in Sources */,
 				B55FAC5D1EEE78B0009CF3B3 /* AppDelegate.swift in Sources */,
 				B55FAC941EEE794C009CF3B3 /* YKLive.swift in Sources */,
@@ -444,14 +462,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B55FAC601EEE78B0009CF3B3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B55FAC611EEE78B0009CF3B3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B55FAC651EEE78B0009CF3B3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
