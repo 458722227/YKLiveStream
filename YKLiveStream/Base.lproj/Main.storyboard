@@ -22,7 +22,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="395"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="xS2-Av-ZbM" id="oim-wV-TTD">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="394"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="395"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Agk-vS-NE3">
@@ -107,10 +107,10 @@
             </objects>
             <point key="canvasLocation" x="1012" y="133.5832083958021"/>
         </scene>
-        <!--View Controller-->
+        <!--Play View Controller-->
         <scene sceneID="rVn-cQ-sVf">
             <objects>
-                <viewController id="7J9-dh-kir" sceneMemberID="viewController">
+                <viewController id="7J9-dh-kir" customClass="PlayViewController" customModule="YKLiveStream" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="V7T-Co-7RU"/>
                         <viewControllerLayoutGuide type="bottom" id="owf-cT-0sq"/>
@@ -129,6 +129,9 @@
                                     <constraint firstAttribute="height" constant="32" id="bJ3-gf-YSE"/>
                                 </constraints>
                                 <state key="normal" image="goback"/>
+                                <connections>
+                                    <action selector="returnClick:" destination="7J9-dh-kir" eventType="touchUpInside" id="foH-Ie-vDI"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kIH-kH-2Hc">
                                 <rect key="frame" x="30" y="605" width="32" height="32"/>
@@ -137,6 +140,9 @@
                                     <constraint firstAttribute="width" constant="32" id="y5W-li-tZv"/>
                                 </constraints>
                                 <state key="normal" image="gift"/>
+                                <connections>
+                                    <action selector="giftClick:" destination="7J9-dh-kir" eventType="touchUpInside" id="V8s-3G-vMa"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6yH-pb-1BA">
                                 <rect key="frame" x="313" y="605" width="32" height="32"/>
@@ -145,6 +151,9 @@
                                     <constraint firstAttribute="height" constant="32" id="hXI-i6-doB"/>
                                 </constraints>
                                 <state key="normal" image="点赞"/>
+                                <connections>
+                                    <action selector="goodClick:" destination="7J9-dh-kir" eventType="touchUpInside" id="8mR-og-Dlg"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LDg-fu-Kkx">
                                 <rect key="frame" x="150" y="323" width="75" height="21"/>
@@ -169,6 +178,10 @@
                             <constraint firstItem="PKJ-cu-7Tc" firstAttribute="leading" secondItem="fBe-c2-MLu" secondAttribute="leading" id="xP7-dA-XOb"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="bgImgV" destination="PKJ-cu-7Tc" id="cch-55-ISo"/>
+                        <outlet property="loadingLab" destination="LDg-fu-Kkx" id="Yak-jh-OwE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CFe-xj-8sS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
