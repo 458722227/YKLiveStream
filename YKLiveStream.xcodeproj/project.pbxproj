@@ -83,6 +83,7 @@
 		B56901A91EEFC29200E6AFBE /* LiveTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveTableViewController.swift; sourceTree = "<group>"; };
 		B56901AB1EEFC2B100E6AFBE /* PlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
 		B56901AD1EEFC2F200E6AFBE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B56901C41EEFC61C00E6AFBE /* Bridging_Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bridging_Header.h; sourceTree = "<group>"; };
 		DEFB48B9789B16841A32BE80 /* Pods-YKLiveStream.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YKLiveStream.release.xcconfig"; path = "Pods/Target Support Files/Pods-YKLiveStream/Pods-YKLiveStream.release.xcconfig"; sourceTree = "<group>"; };
 		EC75EBB32374E03A6C0660AF /* Pods-YKLiveStream.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YKLiveStream.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YKLiveStream/Pods-YKLiveStream.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -153,6 +154,7 @@
 				B56901A91EEFC29200E6AFBE /* LiveTableViewController.swift */,
 				B55FACC81EEE8C38009CF3B3 /* LiveTableViewCell.swift */,
 				B56901AB1EEFC2B100E6AFBE /* PlayViewController.swift */,
+				B56901C41EEFC61C00E6AFBE /* Bridging_Header.h */,
 				B56901AD1EEFC2F200E6AFBE /* Main.storyboard */,
 				B55FAC631EEE78B0009CF3B3 /* Assets.xcassets */,
 				B55FAC651EEE78B0009CF3B3 /* LaunchScreen.storyboard */,
@@ -584,6 +586,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.topcheer.YKLiveStream;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = YKLiveStream/Bridging_Header.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -608,6 +611,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.topcheer.YKLiveStream;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = YKLiveStream/Bridging_Header.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

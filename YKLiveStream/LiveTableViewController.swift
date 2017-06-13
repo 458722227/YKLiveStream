@@ -82,7 +82,10 @@ class LiveTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 80+375
+        
+        let h : CGFloat = UIScreen.main.bounds.width
+        
+        return h+80
     }
 
     /*
